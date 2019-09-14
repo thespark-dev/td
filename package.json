@@ -1,6 +1,6 @@
 {
   "name": "td",
-  "version": "0.1.0+f63ce52",
+  "version": "0.1.2",
   "description": "Unofficial Twitch client with Discord Rich Presence support and extra features",
   "main": "main.js",
   "scripts": {
@@ -10,12 +10,12 @@
     "postinstall": ""
   },
   "build": {
-    "appId": "com.marcsances.td",
+    "appId": "com.thespark-dev.td",
     "mac": {
       "category": "public.app-category.video"
     }
   },
-  "repository": "https://github.com/marcsances/td",
+  "repository": "https://github.com/thespark-dev/td",
   "keywords": [
     "Electron",
     "Twitch",
