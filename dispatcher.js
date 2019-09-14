@@ -19,7 +19,7 @@ const sysurls = ['directory','dashboard'];
 const featured = ['summit1g','the8bitdrummer','sethdrumstv','lvpes','halifax','ninja','racsrr'];
 
 function dispatchUrl(url) {
-    var matchRegex = /https?:\/\/(?:www.)?twitch.tv\/([^\\\/\?\n]+)?(?:\?.*)?(?:\/([^\\\?\/\n]+))?(?:\?.*)?(?:\/([^\\\?\/\n]+))?/gi;
+    var matchRegex = /https?:\/\/(?:canary.)?twitch.tv\/([^\\\/\?\n]+)?(?:\?.*)?(?:\/([^\\\?\/\n]+))?(?:\?.*)?(?:\/([^\\\?\/\n]+))?/gi;
     var res = matchRegex.exec(url);
     logger.debug("Matches: " + res)
     if (res.length > 0) {
