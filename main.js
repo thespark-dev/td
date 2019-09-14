@@ -85,7 +85,7 @@ const defaultSettings = {
   devmode: "1",
   sharelink: "1",
   safemode: "0",
-  extensionslist: "https://cdn.betterttv.net/betterttv.js,https://cdn.frankerfacez.com/script/script.min.js"
+  extensionslist: "https://cdn.betterttv.net/betterttv.js" // ,https://cdn.frankerfacez.com/script/script.min.js
 };
 
 function init_settings() {
