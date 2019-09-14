@@ -126,7 +126,7 @@ function createWindow() {
   mainWindow.setMenu(get_settings_string("devmode")=="1" || devMenuOverride ? menu : null);
   Menu.setApplicationMenu(get_settings_string("devmode")=="1" || devMenuOverride ? menu : null);
   var user = process.argv.length>=3 ? process.argv[2] : "";
-  mainWindow.loadURL("https://www.twitch.tv/" + user);
+  mainWindow.loadURL("https://canary.twitch.tv/" + user);
   
   mainWindow.on('ready-to-show', () => {
     injectScripts(mainWindow)
